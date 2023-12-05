@@ -8,10 +8,10 @@
   </head>
   <body>
     <!-- header -->
-    <header class="px-3 border-b">
-      <nav>
-        <a href="" class="uppercase font-bold text-purple-800 ml-2">tailwind</a>
-        <ul class="text-gray-500 ml-2 font-semibold">
+    <header class="px-3 border-b flex items-center justify-between">
+      <a href="" class="uppercase font-bold text-purple-800 ml-2">tailwind</a>
+      <nav class="flex items-center">
+        <ul class="text-gray-500 ml-2 font-semibold inline-flex items-center">
           <li>
             <a
               href="#"
@@ -34,15 +34,15 @@
             >
           </li>
         </ul>
-        <ul class="">
-          <li>
+        <ul class="inline-flex items-center">
+          <li class="ml-2">
             <button
               class="p-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-600 hover:text-white hover:bg-indigo-800 shadow-md shadow-indigo-500 focus:outline-none focus:ring focus:ring-violet-400"
             >
               Login
             </button>
           </li>
-          <li>
+          <li class="ml-2">
             <button
               class="p-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-600 hover:text-white hover:bg-indigo-800 shadow-md shadow-indigo-500 focus:outline-none focus:ring focus:ring-violet-400"
             >
@@ -54,8 +54,8 @@
     </header>
     <main>
       <!-- breadcrumbs -->
-      <div>
-        <div class="py-4 overflow-y-auto whitespace-nowrap">
+      <div class="flex items-center">
+        <div class="py-4 overflow-y-auto whitespace-nowrap flex items-center">
           <a href="#" class="text-gray-600">Home</a>
           <span class="mx-2 text-gray-500">&gt;</span>
           <a href="#" class="text-gray-600">News</a>
@@ -63,6 +63,51 @@
           <a href="#" class="text-gray-600">Tech</a>
         </div>
       </div>
+      <!-- section news-->
+      <section class="px-2">
+        <a href="#" class="block mb-10">
+          <div class="flex">
+            <div class="">
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Lorem ipsum dolor</h3>
+              <p class="text-gray-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sequi pariatur sit? Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Ad, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sequi nisi amet, praesentium enim adipisci repellat magnam, dolores neque saepe iure perspiciatis modi.
+                Totam ut a aperiam ipsa illum excepturi perspiciatis.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="block mb-10">
+          <div class="flex">
+            <div class="">
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Nihil ipsum quaerat consequuntur</h3>
+              <p class="text-gray-600">
+                Non sequi pariatur sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ea. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi nisi amet, praesentium enim adipisci repellat magnam,
+                dolores neque saepe iure perspiciatis modi. Totam ut a aperiam ipsa illum excepturi perspiciatis.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="block mb-10">
+          <div class="flex">
+            <div class="">
+              <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Quaerat consequuntur ipsum dolor sit</h3>
+              <p class="text-gray-600">
+                Reprehenderit fugiat deleniti, minima perferendis eligendi saepe aspernatur a amet praesentium quisquam,
+                quis harum magnam iure provident ullam explicabo doloremque. Dicta iusto voluptatem optio blanditiis?
+                Quod, voluptatum. Animi, placeat inventore minima autem magni unde eius necessitatibus distinctio
+                dolorum aut. Vel tempora accusantium molestias alias expedita voluptatibus. Quo odio quam obcaecati
+                repudiandae quasi labore, reprehenderit deleniti aliquid quis quas ea ipsam recusandae, minus
+                consectetur velit omnis iusto! Nostrum laboriosam enim asperiores alias autem cupiditate vitae fugiat
+                pariatur maiores eos!Sequi nisi amet, praesentium enim adipisci repellat magnam, dolores neque saepe
+                iure perspiciatis modi. Totam ut a aperiam ipsa illum excepturi perspiciatis.
+              </p>
+            </div>
+          </div>
+        </a>
+      </section>
       <!-- pagination -->
       <div class="mt-20 mb-10">
         <ul class="flex justify-center">
@@ -88,7 +133,11 @@
             >
           </li>
           <li>
-            <a class="inline-block py-1 px-3 border border-gray-300 text-blue-600 hover:bg-blue-100" href="#">3</a>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-blue-600 font-semibold hover:bg-blue-100"
+              href="#"
+              >3</a
+            >
           </li>
           <li>
             <a
