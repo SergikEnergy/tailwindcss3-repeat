@@ -12,9 +12,27 @@
       <nav>
         <a href="" class="uppercase font-bold text-purple-800 ml-2">tailwind</a>
         <ul class="text-gray-500 ml-2 font-semibold">
-          <li><a href="#" class="inline-block py-3 px-2">Home</a></li>
-          <li><a href="#" class="inline-block py-3 px-2">About</a></li>
-          <li><a href="#" class="inline-block py-3 px-2">Contact</a></li>
+          <li>
+            <a
+              href="#"
+              class="inline-block py-3 px-2 border-b border-transparent hover:border-purple-800 hover:text-purple-600"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="inline-block py-3 px-2 border-b border-transparent hover:border-purple-800 hover:text-purple-600"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="inline-block py-3 px-2 border-b border-transparent hover:border-purple-800 hover:text-purple-600"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -29,15 +47,68 @@
           <a href="#" class="text-gray-600">Tech</a>
         </div>
       </div>
+      <!-- divider -->
+      <div class="border border-dotted"></div>
+      <!-- order form -->
+      <div class="my-5">
+        <h5 class="font-bold text-lg uppercase text-gray-700mb-2">Order some thing</h5>
+        <p class="text-gray-600 mb-4">Order some things from our place</p>
+        <input
+          type="email"
+          placeholder="Enter your e-mail"
+          class="text-gray-700 p-2 bg-gray-100 w-full border rounded-t hover: border-gray-600"
+        />
+      </div>
+      <div class="border border-dotted"></div>
     </main>
     <!-- footer -->
     <footer class="border-t mt-10 py-10 px-2 mb-4">
       <div class="">
-        <div class="">
+        <div class="mb-5">
           <h5 class="font-semibold text-gray-700 mb-4">Some company</h5>
           <ul>
-            <li><a href="#" class="inline-block text-gray-500 py-2">Team</a></li>
-            <li><a href="#" class="inline-block text-gray-500 py-2">About Us</a></li>
+            <li>
+              <a
+                href="#"
+                class="inline-block text-gray-500 py-2 hover:text-gray-800 hover:underline decoration-2 decoration-gray-700 underline-offset-2"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="inline-block text-gray-500 py-2 hover:text-gray-800 hover:underline decoration-2 decoration-gray-700 underline-offset-2"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <h5 class="font-semibold text-gray-700 mb-4">Content</h5>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="inline-block text-gray-500 py-2 hover:text-gray-800 hover:underline decoration-2 decoration-gray-700 underline-offset-2"
+                >Policy</a
+              >
+            </li>
+            <li></li>
+            <li>
+              <a
+                href="#"
+                class="inline-block text-gray-500 py-2 hover:text-gray-800 hover:underline decoration-2 decoration-gray-700 underline-offset-2"
+                >Libraries</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="inline-block text-gray-500 py-2 hover:text-gray-800 hover:underline decoration-2 decoration-gray-700 underline-offset-2"
+                >Documentation</a
+              >
+              <!-- customize text-decoration with decoration property -->
+            </li>
           </ul>
         </div>
       </div>
