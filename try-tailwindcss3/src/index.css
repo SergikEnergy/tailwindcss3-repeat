@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* heroicons - additional library for adding icons to tailwindcss without any installation to package - only copy paste block of code from heroicons*/
+
 /* directive apply help no-repeat complicated code in html many times - create easier html structure */
 .header-link {
   @apply text-gray-500 ml-2 font-semibold inline-block py-3 px-2 border-b border-transparent hover:border-purple-800 hover:text-purple-600;
